@@ -9,7 +9,9 @@ export default function Home() {
         <h1> About me</h1>
         <div className="flex flex-row flex-wrap justify-center">
           <div className=" w-4/12 justify-items-center">a
-          <img src="/images/GetUserPhoto.jpg" alt="a" className="w-7/12 block m-auto"/>
+                    <Image src="/images/GetUserPhoto.jpg"
+          width={100}
+          height={100} alt="a" className="w-7/12 block m-auto"/>
           </div>
           <div className="w-6/12">
           <div className='text-start justify-start items-start'>I'm Tanaphon you can call me Bob!</div>
@@ -70,8 +72,12 @@ export default function Home() {
         </div>
         <h1>Certificates</h1>
         <div className="flex">
-          <img src="/images/seccer.png" alt="a" className="w-5/12 block m-auto"/>
-          <img src="/images/image.png" alt="a" className="w-5/12 block m-auto"/>
+          <Image src="/images/seccer.png" alt="a" className="w-5/12 block m-auto"
+          width={500}
+          height={500}/>
+          <Image src="/images/image.png" alt="a" className="w-5/12 block m-auto"
+          width={500}
+          height={500}/>
         </div>
       </div>
     </main>
